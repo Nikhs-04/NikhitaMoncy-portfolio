@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nikhita Moncy - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Nikhita Moncy
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          nikhs@jeemail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +13456764598
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendation">Recommendation</a>
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-CuT9_uVA8itW4bRcsUcpi-ukYJBrAs6qCQ&s" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Nikhita Moncy! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
+          </h1>
+          <p>
+            I'm currently a student who aspires to be an Engineer. </br>
+            I've successfully completed "Introduction to Cloud Computing" course from IBM on Coursera.
+            I am currently doing "Introduction to HTML,CSS and JavaScript" course and would soon learn the front-end and back-end developing too.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>3 years experience</p>
+        </div>  
+
+        <div class="skill">
+            <img src="html_finalprojimages/python.png"/>
+            <h6>Python</h6>
+            <p>2 years experience</p>
+        </div>
+
+        <div class="skill">
+            <img src="html_finalprojimages/cloud.jpg"/>
+            <h6>Cloud Computing-Basics</h6>
+            <p>3 months experience</p>
+        </div>
+
+        <div class="skill">
+            <img src="html_finalprojimages/css.png"/>
+            <h6>CSS</h6>
+            <p>2 years experience</p>
+        </div>
+
+        <div class="skill">
+            <img src="html_finalprojimages/java.png"/>
+            <h6>Java</h6>
+            <p>2 years experience</p>
+        </div>
+        <!-- Add more skills here -->
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Personal Blog Website</h3>
+            <ul>
+              <li>Created a responsive personal blog using HTML, CSS, and JavaScript, featuring a clean design and easy navigation.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Weather App</h3>
+            <ul>
+              <li>Developed a weather forecasting app using React and OpenWeather API to display real-time weather data based on user location.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>To-Do List Application</h3>
+            <ul>
+              <li> Built a to-do list app with JavaScript and local storage to help users manage and track their daily tasks efficiently.</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Nikhita is dedicated and passionate about technology, always eager to learn and innovate in the field of software engineering, with a keen interest in emerging technologies and their applications.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Nikhita has excellent problem-solving skills, with a strong foundation in coding and software development. 
+          She consistently demonstrates the ability to understand complex technical concepts, develop efficient solutions,and collaborate effectively with team members.   
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Highly motivated and driven, committed to making impactful contributions to the tech industry through continuous learning, skill enhancement, and a proactive approach to staying updated with the latest advancements.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+            <span>&#8220;</span>
+            Her collaborative approach, coupled with her smart problem-solving skills, ensures seamless implementation She is a valuable team player with a knack for innovative solutions."
+            <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/> <br/>
+      <br/>
+      Thanks for leaving a recommendation!
+      <h3><!-- Add appropriate text here--></h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
